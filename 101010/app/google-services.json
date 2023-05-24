@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179977878795",
+    "project_id": "narail-online-seba",
+    "storage_bucket": "narail-online-seba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179977878795:android:416c9183ad847e73a2b60e",
+        "android_client_info": {
+          "package_name": "com.sbt.narailzelaonlineseba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179977878795-un83u7vmd807fa6d08t9bud3gb16bng9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAhU64H3OHSSkQGlcxWP80JBI0wrXGRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179977878795-un83u7vmd807fa6d08t9bud3gb16bng9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

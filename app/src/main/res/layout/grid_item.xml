@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/serviceItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:outlineAmbientShadowColor="#9E333333"
+        android:outlineSpotShadowColor="#D2333333"
+        android:clickable="true"
+        android:foreground="@drawable/click_effect"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/two_color"
+            >
+           <ImageView
+               android:id="@+id/itemImage"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:src="@drawable/hospital"/>
+
+            <com.romainpiel.shimmer.ShimmerTextView
+                android:id="@+id/itemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সেবা সমূহ"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/font"
+                android:textColor="#333"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                app:reflectionColor="#fb5200"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
